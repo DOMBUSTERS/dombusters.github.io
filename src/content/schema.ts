@@ -2,6 +2,12 @@ import { z } from 'astro:content'
 
 /* Pages*/
 export const pageSchema = z.object({
+  author: z
+    .string()
+    .default('')
+    .describe(
+      'Just add the author man.'
+    ),
   title: z
     .string()
     .default('')
@@ -55,6 +61,12 @@ export const postSchema = z.object({
     .default('')
     .describe(
       'Provides a post subtitle. If provided, it will be displayed below the title. If not needed, leave the field as an empty string or delete it.'
+    ),
+  author: z
+    .string()
+    .default('')
+    .describe(
+      'Just add the author man.'
     ),
   description: z
     .string()

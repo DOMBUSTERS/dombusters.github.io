@@ -6,6 +6,7 @@ lastModDate: ''
 toc: true
 share: true
 ogImage: true
+author: Kohi
 ---
 
 This post outlines the essential steps to quickly set up your personal website using the [Astro AntfuStyle Theme](https://github.com/lin-stephanie/astro-antfustyle-theme). Each step may involve more detailed content, requiring you to consult other posts for further information.

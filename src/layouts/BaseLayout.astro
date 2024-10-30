@@ -21,18 +21,19 @@ interface Props {
   description?: string
   ogImage?: string | boolean
   bgType?: BgType | false
+  author?: string
   pubDate?: string
   lastModDate?: string
 }
 
-const { title, description, ogImage, bgType, pubDate, lastModDate } =
+const { title, description, ogImage, bgType, pubDate, lastModDate, author } =
   Astro.props
 ---
 
 <!doctype html>
 <html lang={SITE.lang}>
   <head>
-    <Head {title} {description} {ogImage} {pubDate} {lastModDate} />
+    <Head {title} {description} {ogImage} {pubDate} {lastModDate} {author}/>
   </head>
 
   <body

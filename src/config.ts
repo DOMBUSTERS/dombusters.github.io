@@ -3,10 +3,10 @@ import type { Site, Ui, Features } from './types'
 export const SITE: Site = {
   website: 'https://astro-antfustyle-theme.vercel.app/',
   base: '/',
-  title: 'Astro AntfuStyle Theme',
+  title: 'Official DOMBUSTERS Site',
   description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
-  author: 'Stephanie Lin',
+    'The official DOMBUSTERS blog site. We do ctfs, and ctfs. And then ctfs.',
+  author: 'DOMBUSTER',
   lang: 'en',
   ogLocale: 'en_US',
 }
@@ -27,25 +27,13 @@ export const UI: Ui = {
       text: 'Projects',
       icon: 'i-ri-lightbulb-line',
     },
-    {
-      path: '/changelog',
-      title: 'Changelog',
-      displayMode: 'alwaysIcon',
-      icon: 'i-ri-draft-line',
-    },
   ],
   socialLinks: [
     {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: 'AntfuStyle on Github',
+      link: 'https://github.com/DOMBUSTERS',
+      title: 'DOMBUSTERS on Github',
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
-    },
-    {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: `${SITE.author} on Twitter`,
-      displayMode: 'iconHiddenOnMobile',
-      icon: 'i-ri-twitter-x-fill',
     },
   ],
   navBarLayout: {
@@ -74,7 +62,7 @@ export const UI: Ui = {
  */
 export const FEATURES: Features = {
   share: [
-    true,
+    false,
     {
       twitter: [true, '@ste7lin'],
       mastodon: [true, '@ste7lin@fairy.id'],
@@ -87,7 +75,7 @@ export const FEATURES: Features = {
     },
   ],
   toc: [
-    true,
+    false,
     {
       minHeadingLevel: 2,
       maxHeadingLevel: 4,
@@ -96,7 +84,7 @@ export const FEATURES: Features = {
     },
   ],
   ogImage: [
-    true,
+    false,
     {
       authorOrBrand: `${SITE.title}`,
       fallbackTitle: `${SITE.description}`,

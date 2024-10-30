@@ -40,6 +40,7 @@ frontmatter to <code>false</code> or remove it to publish the post.`
   ogImage={frontmatter.ogImage}
   {pubDate}
   {lastModDate}
+  author={frontmatter.author}
 >
   {Array.isArray(toc) && toc[0] && frontmatter.toc && <Toc {headings} />}
   <StandardLayout
@@ -50,7 +51,8 @@ frontmatter to <code>false</code> or remove it to publish the post.`
     <Fragment slot="head">
       {
         frontmatter.pubDate && (
-          <p class="slide-enter-50 mt--6! opacity-50">
+        <p class="slide-enter-50 mt--6! opacity-50">
+            <span>@{frontmatter.author} · </span>
             <time datetime={pubDate}>{formatDate(pubDate)}</time>
             {minutesRead !== 0 && <span>· {minutesRead} min</span>}
             {lastModDate && (
