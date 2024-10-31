@@ -52,7 +52,7 @@ frontmatter to <code>false</code> or remove it to publish the post.`
       {
         frontmatter.pubDate && (
         <p class="slide-enter-50 mt--6! opacity-50">
-            <span>@{frontmatter.author} · </span>
+            {frontmatter.author != '' && <span>@{frontmatter.author} · </span>}
             <time datetime={pubDate}>{formatDate(pubDate)}</time>
             {minutesRead !== 0 && <span>· {minutesRead} min</span>}
             {lastModDate && (

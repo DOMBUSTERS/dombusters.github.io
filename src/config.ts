@@ -3,7 +3,7 @@ import type { Site, Ui, Features } from './types'
 export const SITE: Site = {
   website: 'https://astro-antfustyle-theme.vercel.app/',
   base: '/',
-  title: 'Official DOMBUSTERS Site',
+  title: 'DOMBUSTERS Official',
   description:
     'The official DOMBUSTERS blog site. We do ctfs, and ctfs. And then ctfs.',
   author: 'DOMBUSTER',
@@ -75,7 +75,7 @@ export const FEATURES: Features = {
     },
   ],
   toc: [
-    false,
+    true,
     {
       minHeadingLevel: 2,
       maxHeadingLevel: 4,
@@ -84,7 +84,7 @@ export const FEATURES: Features = {
     },
   ],
   ogImage: [
-    false,
+    true,
     {
       authorOrBrand: `${SITE.title}`,
       fallbackTitle: `${SITE.description}`,
