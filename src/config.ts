@@ -6,7 +6,7 @@ export const SITE: Site = {
   title: 'DOMBUSTERS Official',
   description:
     'The official DOMBUSTERS blog site. We do ctfs, and ctfs. And then ctfs.',
-  author: 'DOMBUSTER',
+  author: 'DOMBUSTERS',
   lang: 'en',
   ogLocale: 'en_US',
 }
@@ -19,13 +19,6 @@ export const UI: Ui = {
       displayMode: 'textToIconOnMobile',
       text: 'Blog',
       icon: 'i-ri-article-line',
-    },
-    {
-      path: '/projects',
-      title: 'Projects',
-      displayMode: 'textToIconOnMobile',
-      text: 'Projects',
-      icon: 'i-ri-lightbulb-line',
     },
   ],
   socialLinks: [
