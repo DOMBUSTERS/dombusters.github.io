@@ -1,107 +1,29 @@
-# Astro AntfuStyle Theme
+Welcome to **DOMBUSTERS**. We are a group of dedicated cybersecurity enthusiasts focused on developing skills, tackling challenges, and working as a team. Founded by **DaddyBigFish**, DOMBUSTERS brings together individuals who are interested in cybersecurity, Capture The Flag (CTF) events, and continuous learning.
 
-[![ci][ci-badge]][ci-link]
-[![version][version-badge]][version-link]
-[![live demo][demo-badge]][demo-link]
-[![playground][playground-badge]][playground-link]
-[![chat][chat-badge]][chat-link]
+## 🎯 What We Do
+Our group participates in **CTF (Capture the Flag) competitions**, which test a range of cybersecurity skills—from cryptography and binary exploitation to web security and reverse engineering. Each event is an opportunity to learn something new and collaborate with others to overcome complex challenges.
 
-![cover image](https://raw.githubusercontent.com/lin-stephanie/assets/refs/heads/main/astro-antfustyle-theme/cover_2x.png)
+In addition to CTFs, we are active on **[Hack The Box](https://app.hackthebox.com/teams/overview/6248)**, where we regularly take part in season challenges. These challenges help us apply our knowledge practically, explore new techniques, and stay updated with evolving cybersecurity trends.
 
-AntfuStyle is a customizable, feature-rich [Astro](https://astro.build/) theme for blog and portfolio creation, inspired by the minimalist style of [antfu.me](https://antfu.me/). I like this design and have recreated and expanded its functionality.
+## 📚 Why DOMBUSTERS?
+DOMBUSTERS isn’t just about winning; it’s about growth and community. Here’s what sets us apart:
 
-## Features
+- **Skill Development** – We prioritize learning through experience. Each challenge, whether we solve it or not, is a chance to grow and deepen our understanding of cybersecurity.
+- **Collaboration** – We believe that complex problems require teamwork. By sharing ideas and supporting each other, we’re able to approach challenges more strategically.
+- **Persistence** – We face hard problems head-on. Even if it takes time, we persist, learn from our mistakes, and eventually break through.
 
-**Optimized Infrastructure**
+DOMBUSTERS is a place where beginners and experienced members alike can come together, share insights, and make cybersecurity knowledge accessible. 
 
-- Zero UI Framework
-- [SEO-friendly](https://astro-antfustyle-theme.vercel.app/blog/faqs-and-known-issues/#about-seo-and-accessibility)
-- Auto-generated RSS Feed
-- Support for [Subpath Deployment](https://astro-antfustyle-theme.vercel.app/blog/basic-configuration/#configuring-site)
-- Optimized Local Image Handling
-- VS Code Snippets for Quick Coding
-- Well-organized [Project Structure](https://astro-antfustyle-theme.vercel.app/blog/project-structure/)
+## 📖 Dive into Our Blog
+For those interested in a deeper look at our process, our **[Blog](/blog)** hosts detailed **CTF write-ups**. These posts cover our approach to different challenges, from the initial analysis to solution strategies. Each write-up is crafted to provide insights into the problem-solving process, tools, and techniques we use, making it a valuable resource for anyone looking to sharpen their skills or learn more about CTF methodologies.
 
-**Content Management**
+Whether you're new to cybersecurity or an experienced player, our blog is designed to break down complex challenges in a way that’s understandable and applicable.
 
-- Type Safety
-- Markdown & MDX Support
-- Table of Contents Generation
-- [Dynamic OG Image Generation](https://astro-antfustyle-theme.vercel.app/blog/about-open-graph-images/)
-- KaTeX Math Integration
-- [Callouts (Alerts/Admonitions)](https://astro-antfustyle-theme.vercel.app/blog/markdown-mdx-extended-features/#callouts-alerts--admonitions)
-- [Directive Sugar](https://astro-antfustyle-theme.vercel.app/blog/markdown-mdx-extended-features/#image-caption--link) for Both Markdown/MDX
-- [Code Syntax Highlighting & Annotations](https://astro-antfustyle-theme.vercel.app/blog/markdown-mdx-extended-features/#fully-featured-code-blocks)
-- Customizable Animated Backgrounds ([Preview](#preview))
+## 🤝 Join Our Community
+We’re committed to building a supportive and informative environment for anyone interested in cybersecurity. Whether you're looking to learn, share your expertise, or contribute to projects, we welcome you to connect with us.
 
-**User Experience**
+- **[Discord](https://discord.gg/C6gsQ5RnbV)** – Join our community to stay informed on upcoming events, participate in discussions, and get hands-on experience through collaboration.
+- **[GitHub](https://github.com/DOMBUSTERS)** – Explore our open-source contributions, tools, and resources, aimed at supporting learning and practical cybersecurity applications.
 
-- [Search Functionality](https://astro-antfustyle-theme.vercel.app/blog/faqs-and-known-issues/#search-functionality)
-- [Accessibility Enhancements](https://astro-antfustyle-theme.vercel.app/blog/faqs-and-known-issues/#about-seo-and-accessibility)
-- Smooth View Transitions
-- Responsive Layout
-- Light & Dark Modes Toggle
-- Loading Progress Indicator
-- Social Media Sharing Features
-- [Image Zoom](https://astro-antfustyle-theme.vercel.app/blog/faqs-and-known-issues/#image-zoom) Preview
+DOMBUSTERS is a space where learning meets real-world challenges. If this sounds like something you’re interested in, we’d be glad to have you with us.
 
-> More features are continuously being added!
-
-## Docs
-
-The [live demo][demo-link] serves as self-documentation, detailing how to configure and use the theme, along with other relevant knowledge expansion. Explore posts on the demo site or [view Markdown files](https://github.com/lin-stephanie/astro-antfustyle-theme/tree/main/src/content/blog) in the repository. Quick Navigation:
-
-- [Getting Started](https://astro-antfustyle-theme.vercel.app/blog/getting-started/)
-- [Project Structure](https://astro-antfustyle-theme.vercel.app/blog/project-structure/)
-- [Configuration](https://astro-antfustyle-theme.vercel.app/blog/basic-configuration/)
-- [Authoring Content](https://astro-antfustyle-theme.vercel.app/blog/getting-started/#authoring-content)
-- [Sync Updates](https://astro-antfustyle-theme.vercel.app/blog/sync-updates/)
-- [Explore More](https://astro-antfustyle-theme.vercel.app/blog/getting-started/#next-steps)
-
-If you're eager to deploy your own version right away:
-
-[![Deploy with Netlify](https://raw.githubusercontent.com/lin-stephanie/assets/refs/heads/main/astro-antfustyle-theme/deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lin-stephanie/astro-antfustyle-theme) [![Deploy with Vercel](https://raw.githubusercontent.com/lin-stephanie/assets/refs/heads/main/astro-antfustyle-theme/deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flin-stephanie%2Fastro-antfustyle-theme&project-name=astro-antfustyle-theme)
-
-## Preview
-
-![plum](https://raw.githubusercontent.com/lin-stephanie/assets/refs/heads/main/astro-antfustyle-theme/blog_2x.png)
-
-![rose](https://raw.githubusercontent.com/lin-stephanie/assets/refs/heads/main/astro-antfustyle-theme/post_2x.png)
-
-![dot](https://raw.githubusercontent.com/lin-stephanie/assets/refs/heads/main/astro-antfustyle-theme/projects_2x.png)
-
-![particle](https://raw.githubusercontent.com/lin-stephanie/assets/refs/heads/main/astro-antfustyle-theme/streams_2x.png)
-
-## Credits
-
-Thanks to the following projects for inspiration and references:
-
-- [antfu/antfu.me](https://github.com/antfu/antfu.me)
-- [satnaing/astro-paper](https://github.com/satnaing/astro-paper)
-- [chrismwilliams/astro-theme-cactus](https://github.com/chrismwilliams/astro-theme-cactus)
-- [saicaca/fuwari](https://github.com/saicaca/fuwari)
-
-## Contribution
-
-If you see any errors or room for improvement, feel free to open an [issue](https://github.com/lin-stephanie/astro-antfustyle-theme/issues) or [pull request](https://github.com/lin-stephanie/astro-antfustyle-theme/pulls). Thank you in advance for contributing! ❤️
-
-## License
-
-[MIT](https://github.com/lin-stephanie/astro-antfustyle-theme/blob/main/LICENSE) © 2024-PRESENT [Stephanie Lin](https://github.com/lin-stephanie)
-
-<!-- Badges -->
-
-[ci-badge]: https://img.shields.io/github/actions/workflow/status/lin-stephanie/astro-antfustyle-theme/ci.yml?label=CI&style=flat&colorA=080f12&colorB=ef7575
-[ci-link]: https://github.com/lin-stephanie/astro-antfustyle-theme/actions/workflows/ci.yml
-
-[version-badge]: https://img.shields.io/github/v/release/lin-stephanie/astro-antfustyle-theme?label=Release&style=flat&colorA=080f12&colorB=ef7575
-[version-link]: https://github.com/lin-stephanie/astro-antfustyle-theme/releases
-
-[demo-badge]: https://img.shields.io/badge/Live%20Demo-080f12?label=Vercel&style=flat&colorA=080f12&colorB=ef7575&logo=vercel&logoSize=10
-[demo-link]:https://astro-antfustyle-theme.vercel.app/
-
-[playground-badge]: https://img.shields.io/badge/Playground-080f12?style=flat&colorA=080f12&colorB=ef7575&logo=codesandbox&logoSize=10
-[playground-link]: https://codesandbox.io/s/github/lin-stephanie/astro-antfustyle-theme
-
-[chat-badge]: https://img.shields.io/badge/Discussions-080f12?style=flat&colorA=080f12&colorB=ef7575&logo=github
-[chat-link]: https://github.com/lin-stephanie/astro-antfustyle-theme/discussions
