@@ -1,5 +1,5 @@
 ---
-title: # MOVEable
+title: MOVEable
 author: Sir_X_
 pubDate: 2024-10-17
 toc: true

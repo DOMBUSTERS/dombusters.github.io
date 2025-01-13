@@ -1,5 +1,5 @@
 ---
-title: # Mystery
+title: Mystery
 author: Sir_X_
 pubDate: 2024-10-8
 toc: true

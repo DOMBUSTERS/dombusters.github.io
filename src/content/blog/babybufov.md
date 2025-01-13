@@ -1,6 +1,6 @@
 ---
-title: # Baby Buffer Overflow - 32bit
-author: saturn_
+title: Baby Buffer Overflow - 32bit
+author: saturn
 pubDate: 2024-10-17
 toc: true
 share: true

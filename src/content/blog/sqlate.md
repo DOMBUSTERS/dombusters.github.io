@@ -1,6 +1,6 @@
 ---
 title: Sqlate
-author: [Sir_X](https://x.com/Sir_X72563?t=J2E1FMrckYMcUU5MNmOLpw&s=09)_
+author: Sir_X
 toc: true
 share: true
 ogImage: true

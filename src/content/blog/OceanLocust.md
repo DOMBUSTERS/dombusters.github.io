@@ -1,5 +1,5 @@
 ---
-title: # OceanLocust
+title: OceanLocust
 author: Sir_X_
 pubDate: 2024-10-5
 toc: true

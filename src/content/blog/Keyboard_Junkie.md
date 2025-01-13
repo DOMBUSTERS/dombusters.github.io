@@ -1,5 +1,5 @@
 ---
-title: # Keyboard Junkie
+title: Keyboard Junkie
 author: Sir_X_
 pubDate: 2024-10-14
 toc: true

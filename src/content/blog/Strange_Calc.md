@@ -1,5 +1,5 @@
 ---
-title: # Strange Calc
+title: Strange Calc
 author: Sir_X_
 pubDate: 2024-10-1
 toc: true

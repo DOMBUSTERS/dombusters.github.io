@@ -1,6 +1,6 @@
 ---
-title: # Whamazon
-author: Sir_X_
+title: Whamazon
+author: Sir_X
 pubDate: 2024-10-4
 toc: true
 share: true

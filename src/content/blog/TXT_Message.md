@@ -1,5 +1,5 @@
 ---
-title: # TXT Message
+title: TXT Message
 author: Sir_X_
 pubDate: 2024-10-6
 toc: true
