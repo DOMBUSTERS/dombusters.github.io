@@ -2,16 +2,13 @@
 title: Sqlate
 author: Sir_X
 toc: true
-pubDate: 2024-01-05
+pubDate: 2025-01-05
 share: true
 ogImage: true
 ---
 
 # Sqlate
-
-<p align="center">
-  <img src="../../assets/dom-images/logo.jpg" alt="Dombusters" width="25%">
-</p>
+![](../../assets/dom-images/logo.jpg)
 
 ## Description
 World‘s most secure paste app.

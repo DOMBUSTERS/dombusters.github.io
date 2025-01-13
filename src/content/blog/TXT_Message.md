@@ -8,10 +8,7 @@ ogImage: true
 ---
 
 # TXT Message
-
-<p align="center">
-  <img src="../../assets/dom-images/logo.jpg" alt="Dombusters" width="25%">
-</p>
+![](../../assets/dom-images/logo.jpg)
 
 ## Description
 Author: @JohnHammond
