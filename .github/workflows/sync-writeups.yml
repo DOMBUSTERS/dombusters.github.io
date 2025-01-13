@@ -49,3 +49,12 @@ jobs:
         find writeups -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.gif" -o -iname "*.bmp" \) -exec cp {} website/dombusters.github.io/src/assets/dom-images \;
         ls writeups
         ls website
+
+    - name: Commit and push changes
+      run: |
+        cd website
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add .
+        git commit -m "Sync writeups and assets"
+        git push
