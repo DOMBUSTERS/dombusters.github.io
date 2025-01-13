@@ -41,12 +41,12 @@ jobs:
       run: |
         mkdir -p website/src/content/blog
         ls
-        find writeups -name '*md' -exec cp {} website/dombusters.github.io/src/content/blog \;
+        find writeups -name '*md' -exec cp {} website/src/content/blog \;
 
     - name: Copy all assets
       run: |
         mkdir -p website/src/assets/dom-images
-        find writeups -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.gif" -o -iname "*.bmp" \) -exec cp {} website/dombusters.github.io/src/assets/dom-images \;
+        find writeups -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.gif" -o -iname "*.bmp" \) -exec cp {} website/src/assets/dom-images \;
         ls writeups
         ls website
 
