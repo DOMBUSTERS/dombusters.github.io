@@ -33,7 +33,9 @@ jobs:
 
     - name: Run Formatting
       run: |
+        cd writeups
         python script.py
+        cd ..
 
     - name: Copy all markdown files
       run: |
