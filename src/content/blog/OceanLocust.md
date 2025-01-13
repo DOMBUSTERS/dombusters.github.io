@@ -1,5 +1,5 @@
 ---
-title: OceanLocust
+title: # OceanLocust
 author: Sir_X_
 pubDate: 2024-10-5
 toc: true
@@ -7,7 +7,11 @@ share: true
 ogImage: true
 ---
 
-![](../../assets/dom-images/logo.jpg)
+# OceanLocust
+
+<p align="center">
+  <img src="../../assets/dom-images/logo.jpg" alt="Dombusters" width="25%">
+</p>
 
 ## Description
 Author: @JohnHammond

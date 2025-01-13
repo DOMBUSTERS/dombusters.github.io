@@ -1,5 +1,5 @@
 ---
-title: MOVEable
+title: # MOVEable
 author: Sir_X_
 pubDate: 2024-10-17
 toc: true
@@ -7,8 +7,11 @@ share: true
 ogImage: true
 ---
 
+# MOVEable
 
-![](../../assets/dom-images/logo.jpg)
+<p align="center">
+  <img src="../../assets/dom-images/logo.jpg" alt="Dombusters" width="25%">
+</p>
 
 ## Description
 Author: @JohnHammond#6971

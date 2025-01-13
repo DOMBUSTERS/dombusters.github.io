@@ -1,14 +1,17 @@
 ---
-title: Sekiro
-author: saturn
+title: # Sekiro
+author: saturn_
 pubDate: 2024-10-15 
 toc: true
 share: true
 ogImage: true
 ---
 
+# Sekiro
 
-![](../../assets/dom-images/logo.jpg)
+<p align="center">
+  <img src="../../assets/dom-images/logo.jpg" alt="Dombusters" width="25%">
+</p>
 
 ## Description
 

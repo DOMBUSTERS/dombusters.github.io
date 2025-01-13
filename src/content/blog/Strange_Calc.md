@@ -1,5 +1,5 @@
 ---
-title: Strange Calc
+title: # Strange Calc
 author: Sir_X_
 pubDate: 2024-10-1
 toc: true
@@ -7,7 +7,11 @@ share: true
 ogImage: true
 ---
 
-![](../../assets/dom-images/logo.jpg)
+# Strange Calc
+
+<p align="center">
+  <img src="../../assets/dom-images/logo.jpg" alt="Dombusters" width="25%">
+</p>
 
 ## Description
 Author: @JohnHammond
@@ -19,7 +23,7 @@ Our team had two main ways to beat this task. I'll start with the easy one: usin
 
 When looking at the process tree, we saw some unusual net commands happening. Normal calculators shouldn't do this. All this seemed to connect to a file named "WmZ93kfDVH.jse". We don't know where this file came from, but it looks like the calculator process (calc.exe) is executing it.
 
-![Process tree](../../assets/strange-calc/Strange_Calc_Process.png) 
+![Process tree](../../assets/dom-images/Strange_Calc_Process.png) 
 
 Lucky for us the sandbox has a feature to download files that were created during execution. So we can directly download the .jse file without having to extract it ourself from the calc.exe.
 Looking at the content of that file its just some binary garbage. 

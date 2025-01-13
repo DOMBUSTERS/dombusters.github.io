@@ -1,5 +1,5 @@
 ---
-title: Mystery
+title: # Mystery
 author: Sir_X_
 pubDate: 2024-10-8
 toc: true
@@ -7,7 +7,11 @@ share: true
 ogImage: true
 ---
 
-![](../../assets/dom-images/logo.jpg)
+# Mystery
+
+<p align="center">
+  <img src="../../assets/dom-images/logo.jpg" alt="Dombusters" width="25%">
+</p>
 
 ## Description
 Author: Michael
@@ -31,7 +35,7 @@ We turn to an online tool to decrypt a ciphertext using an enigma machine:
 [Enigma Machine Decryptor](https://cryptii.com/pipes/enigma-machine)
 
 After decryption, the plaintext seems strange at the first glance.
-![Mystery](../../assets/mystery/Mystery.png) 
+![Mystery](../../assets/dom-images/Mystery.png) 
 
 Upon closer review, it becomes apparent that the words are improperly separated. Resolving that issue, we get the following comprehensible message and consequently, our flag. 
 

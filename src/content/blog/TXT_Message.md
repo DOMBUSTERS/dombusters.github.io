@@ -1,5 +1,5 @@
 ---
-title: TXT Message
+title: # TXT Message
 author: Sir_X_
 pubDate: 2024-10-6
 toc: true
@@ -7,7 +7,11 @@ share: true
 ogImage: true
 ---
 
-![](../../assets/dom-images/logo.jpg)
+# TXT Message
+
+<p align="center">
+  <img src="../../assets/dom-images/logo.jpg" alt="Dombusters" width="25%">
+</p>
 
 ## Description
 Author: @JohnHammond

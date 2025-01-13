@@ -1,14 +1,17 @@
 ---
-title: Baby Buffer Overflow - 32bit
-author: saturn
+title: # Baby Buffer Overflow - 32bit
+author: saturn_
 pubDate: 2024-10-17
 toc: true
 share: true
 ogImage: true
 ---
 
+# Baby Buffer Overflow - 32bit 
 
-![](../../assets/dom-images/logo.jpg)
+<p align="center">
+  <img src="../../assets/dom-images/logo.jpg" alt="Dombusters" width="25%">
+</p>
 
 ## Description
 

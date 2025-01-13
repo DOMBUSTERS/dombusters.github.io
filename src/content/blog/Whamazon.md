@@ -1,5 +1,5 @@
 ---
-title: Whamazon
+title: # Whamazon
 author: Sir_X_
 pubDate: 2024-10-4
 toc: true
@@ -7,8 +7,11 @@ share: true
 ogImage: true
 ---
 
+# Whamazon
 
-![](../../assets/dom-images/logo.jpg)
+<p align="center">
+  <img src="../../assets/dom-images/logo.jpg" alt="Dombusters" width="25%">
+</p>
 
 ## Description
 Author: @JohnHammond
@@ -22,7 +25,7 @@ Intercepting the webapp's request traffic with Burp, we observe the use of a web
 
 As there appears to be no direct means of manipulating an item's price, our next strategy involves attempting to buy a negative quantity of apples - and voila! 
 This little trick adds the cost of these negative apples to our balance. 
-![Whamazon](../../assets/whamazon/Whamazon.png) 
+![Whamazon](../../assets/dom-images/Whamazon.png) 
 
 After managing to afford and purchase the flag, we are led into a game of rock-paper-scissors against a Whamazon bot. Interestingly, the bot seems to consistently choose the same move, allowing us to finally claim our flag listed in the inventory. 
 
@@ -39,7 +42,7 @@ Flag: `{18bdd83cee5690321bb14c70465d3408}`
 Interestingly, an alternate solution exists for obtaining the flag. We can cause a crash in the Python application that's behind the scenes of the webshop, which would subsequently allow us to gain an interactive shell within the associated Docker container.
 
 This can be achieved by repeatedly interrupting the program using the `CTRL-C` command and refreshing the page every time the connection is severed. After several attempts, a stacktrace becomes visible, and normal OS commands can be run inside the shell.
-![Whamazon_Shell](../../assets/whamazon/Whamazon_Shell.png) 
+![Whamazon_Shell](../../assets/dom-images/Whamazon_Shell.png) 
 
 ---
 **Dombusters**: _Writeup written by Sir_X_
